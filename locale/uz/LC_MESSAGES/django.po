@@ -1,0 +1,771 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-17 09:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: .\templates\blog-single.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Blog Single"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shablon | Blog maqolasi sahifasi"
+
+#: .\templates\blog-single.html:40
+msgid "Call Us Now"
+msgstr "Hozir bizga qo‘ng‘iroq qiling"
+
+#: .\templates\blog-single.html:49 .\templates\contact.html:50
+#: .\templates\error-page.html:50 .\templates\gallery.html:50
+#: .\templates\index.html:53 .\templates\services.html:50
+#: .\templates\shop-single.html:52 .\templates\shop.html:51
+#: .\templates\team-single.html:50 .\templates\team.html:50
+msgid "English"
+msgstr "Ingliz tili"
+
+#: .\templates\blog-single.html:50 .\templates\contact.html:51
+#: .\templates\error-page.html:51 .\templates\gallery.html:51
+#: .\templates\index.html:54 .\templates\services.html:51
+#: .\templates\shop-single.html:53 .\templates\shop.html:52
+#: .\templates\team-single.html:51 .\templates\team.html:51
+msgid "German"
+msgstr "Nemis tili"
+
+#: .\templates\blog-single.html:51 .\templates\contact.html:52
+#: .\templates\error-page.html:52 .\templates\gallery.html:52
+#: .\templates\index.html:55 .\templates\services.html:52
+#: .\templates\shop-single.html:54 .\templates\shop.html:53
+#: .\templates\team-single.html:52 .\templates\team.html:52
+msgid "Arabic"
+msgstr "Arab tili"
+
+#: .\templates\blog-single.html:52 .\templates\contact.html:53
+#: .\templates\error-page.html:53 .\templates\gallery.html:53
+#: .\templates\index.html:56 .\templates\services.html:53
+#: .\templates\shop-single.html:55 .\templates\shop.html:54
+#: .\templates\team-single.html:53 .\templates\team.html:53
+msgid "Hindi"
+msgstr "Hind tili"
+
+#: .\templates\blog-single.html:55 .\templates\contact.html:56
+#: .\templates\error-page.html:56 .\templates\gallery.html:56
+#: .\templates\index.html:59 .\templates\services.html:56
+#: .\templates\shop-single.html:58 .\templates\shop.html:57
+#: .\templates\team-single.html:56 .\templates\team.html:56
+msgid "Login"
+msgstr "Kirish"
+
+#: .\templates\blog-single.html:56 .\templates\contact.html:57
+#: .\templates\error-page.html:57 .\templates\gallery.html:57
+#: .\templates\index.html:60 .\templates\services.html:57
+#: .\templates\shop-single.html:59 .\templates\shop.html:58
+#: .\templates\team-single.html:57 .\templates\team.html:57
+msgid "Sign Up"
+msgstr "Ro‘yxatdan o‘tish"
+
+#: .\templates\blog-single.html:87 .\templates\blog-single.html:187
+#: .\templates\blog-single.html:251 .\templates\contact.html:88
+#: .\templates\contact.html:188 .\templates\contact.html:252
+#: .\templates\error-page.html:88 .\templates\error-page.html:188
+#: .\templates\error-page.html:252 .\templates\gallery.html:88
+#: .\templates\gallery.html:188 .\templates\gallery.html:252
+#: .\templates\index.html:191 .\templates\services.html:88
+#: .\templates\services.html:188 .\templates\services.html:252
+#: .\templates\shop-single.html:90 .\templates\shop-single.html:190
+#: .\templates\shop-single.html:254 .\templates\shop.html:89
+#: .\templates\shop.html:189 .\templates\shop.html:253
+#: .\templates\team-single.html:88 .\templates\team-single.html:188
+#: .\templates\team-single.html:252 .\templates\team.html:88
+#: .\templates\team.html:188 .\templates\team.html:252
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: .\templates\blog-single.html:89 .\templates\blog-single.html:189
+#: .\templates\contact.html:90 .\templates\contact.html:190
+#: .\templates\error-page.html:90 .\templates\error-page.html:190
+#: .\templates\gallery.html:90 .\templates\gallery.html:190
+#: .\templates\index.html:93 .\templates\index.html:193
+#: .\templates\services.html:90 .\templates\services.html:190
+#: .\templates\shop-single.html:92 .\templates\shop-single.html:192
+#: .\templates\shop.html:91 .\templates\shop.html:191
+#: .\templates\team-single.html:90 .\templates\team-single.html:190
+#: .\templates\team.html:90 .\templates\team.html:190
+msgid "Homepage One"
+msgstr "Bosh sahifa 1"
+
+#: .\templates\blog-single.html:90 .\templates\blog-single.html:190
+#: .\templates\contact.html:91 .\templates\contact.html:191
+#: .\templates\error-page.html:91 .\templates\error-page.html:191
+#: .\templates\gallery.html:91 .\templates\gallery.html:191
+#: .\templates\index.html:94 .\templates\index.html:194
+#: .\templates\services.html:91 .\templates\services.html:191
+#: .\templates\shop-single.html:93 .\templates\shop-single.html:193
+#: .\templates\shop.html:92 .\templates\shop.html:192
+#: .\templates\team-single.html:91 .\templates\team-single.html:191
+#: .\templates\team.html:91 .\templates\team.html:191
+msgid "Homepage Two"
+msgstr "Bosh sahifa 2"
+
+#: .\templates\blog-single.html:91 .\templates\blog-single.html:191
+#: .\templates\contact.html:92 .\templates\contact.html:192
+#: .\templates\error-page.html:92 .\templates\error-page.html:192
+#: .\templates\gallery.html:92 .\templates\gallery.html:192
+#: .\templates\index.html:95 .\templates\index.html:195
+#: .\templates\services.html:92 .\templates\services.html:192
+#: .\templates\shop-single.html:94 .\templates\shop-single.html:194
+#: .\templates\shop.html:93 .\templates\shop.html:193
+#: .\templates\team-single.html:92 .\templates\team-single.html:192
+#: .\templates\team.html:92 .\templates\team.html:192
+msgid "Homepage Three"
+msgstr "Bosh sahifa 3"
+
+#: .\templates\blog-single.html:92 .\templates\blog-single.html:192
+#: .\templates\contact.html:93 .\templates\contact.html:193
+#: .\templates\error-page.html:93 .\templates\error-page.html:193
+#: .\templates\gallery.html:93 .\templates\gallery.html:193
+#: .\templates\index.html:96 .\templates\index.html:196
+#: .\templates\services.html:93 .\templates\services.html:193
+#: .\templates\shop-single.html:95 .\templates\shop-single.html:195
+#: .\templates\shop.html:94 .\templates\shop.html:194
+#: .\templates\team-single.html:93 .\templates\team-single.html:193
+#: .\templates\team.html:93 .\templates\team.html:193
+msgid "Header Styles"
+msgstr "Header uslublari"
+
+#: .\templates\blog-single.html:94 .\templates\blog-single.html:194
+#: .\templates\contact.html:95 .\templates\contact.html:195
+#: .\templates\error-page.html:95 .\templates\error-page.html:195
+#: .\templates\gallery.html:95 .\templates\gallery.html:195
+#: .\templates\index.html:98 .\templates\index.html:198
+#: .\templates\services.html:95 .\templates\services.html:195
+#: .\templates\shop-single.html:97 .\templates\shop-single.html:197
+#: .\templates\shop.html:96 .\templates\shop.html:196
+#: .\templates\team-single.html:95 .\templates\team-single.html:195
+#: .\templates\team.html:95 .\templates\team.html:195
+msgid "Header Style One"
+msgstr "Header uslubi 1"
+
+#: .\templates\blog-single.html:95 .\templates\blog-single.html:195
+#: .\templates\contact.html:96 .\templates\contact.html:196
+#: .\templates\error-page.html:96 .\templates\error-page.html:196
+#: .\templates\gallery.html:96 .\templates\gallery.html:196
+#: .\templates\index.html:99 .\templates\index.html:199
+#: .\templates\services.html:96 .\templates\services.html:196
+#: .\templates\shop-single.html:98 .\templates\shop-single.html:198
+#: .\templates\shop.html:97 .\templates\shop.html:197
+#: .\templates\team-single.html:96 .\templates\team-single.html:196
+#: .\templates\team.html:96 .\templates\team.html:196
+msgid "Header Style Two"
+msgstr "Header uslubi 2"
+
+#: .\templates\blog-single.html:96 .\templates\blog-single.html:196
+#: .\templates\contact.html:97 .\templates\contact.html:197
+#: .\templates\error-page.html:97 .\templates\error-page.html:197
+#: .\templates\gallery.html:97 .\templates\gallery.html:197
+#: .\templates\index.html:100 .\templates\index.html:200
+#: .\templates\services.html:97 .\templates\services.html:197
+#: .\templates\shop-single.html:99 .\templates\shop-single.html:199
+#: .\templates\shop.html:98 .\templates\shop.html:198
+#: .\templates\team-single.html:97 .\templates\team-single.html:197
+#: .\templates\team.html:97 .\templates\team.html:197
+msgid "Header uslubi 3"
+msgstr ""
+
+#: .\templates\blog-single.html:101 .\templates\blog-single.html:201
+#: .\templates\contact.html:102 .\templates\error-page.html:102
+#: .\templates\error-page.html:202 .\templates\gallery.html:102
+#: .\templates\gallery.html:202 .\templates\index.html:105
+#: .\templates\index.html:205 .\templates\services.html:102
+#: .\templates\services.html:202 .\templates\shop-single.html:104
+#: .\templates\shop-single.html:204 .\templates\shop.html:103
+#: .\templates\shop.html:203 .\templates\team-single.html:102
+#: .\templates\team-single.html:202 .\templates\team.html:102
+#: .\templates\team.html:202 .\templates\team.html:307
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: .\templates\blog-single.html:103 .\templates\blog-single.html:203
+#: .\templates\contact.html:104 .\templates\contact.html:204
+#: .\templates\error-page.html:104 .\templates\error-page.html:204
+#: .\templates\gallery.html:104 .\templates\gallery.html:204
+#: .\templates\index.html:107 .\templates\index.html:207
+#: .\templates\services.html:104 .\templates\services.html:204
+#: .\templates\shop-single.html:106 .\templates\shop-single.html:206
+#: .\templates\shop.html:105 .\templates\shop.html:205
+#: .\templates\team-single.html:104 .\templates\team-single.html:204
+#: .\templates\team.html:104 .\templates\team.html:204
+msgid "About Us 01"
+msgstr "Biz haqimizda 01"
+
+#: .\templates\blog-single.html:104 .\templates\blog-single.html:204
+#: .\templates\contact.html:105 .\templates\contact.html:205
+#: .\templates\error-page.html:105 .\templates\error-page.html:205
+#: .\templates\gallery.html:105 .\templates\gallery.html:205
+#: .\templates\index.html:108 .\templates\index.html:208
+#: .\templates\services.html:105 .\templates\services.html:205
+#: .\templates\shop-single.html:107 .\templates\shop-single.html:207
+#: .\templates\shop.html:106 .\templates\shop.html:206
+#: .\templates\team-single.html:105 .\templates\team-single.html:205
+#: .\templates\team.html:105 .\templates\team.html:205
+msgid "About Us 02"
+msgstr "Biz haqimizda 02"
+
+#: .\templates\blog-single.html:107 .\templates\blog-single.html:207
+#: .\templates\contact.html:108 .\templates\contact.html:208
+#: .\templates\error-page.html:108 .\templates\error-page.html:208
+#: .\templates\gallery.html:108 .\templates\gallery.html:208
+#: .\templates\index.html:111 .\templates\index.html:211
+#: .\templates\services.html:108 .\templates\services.html:208
+#: .\templates\shop-single.html:110 .\templates\shop-single.html:210
+#: .\templates\shop.html:109 .\templates\shop.html:209
+#: .\templates\team-single.html:108 .\templates\team-single.html:208
+#: .\templates\team.html:108 .\templates\team.html:208
+msgid "Pages"
+msgstr "Sahifalar"
+
+#: .\templates\blog-single.html:109 .\templates\blog-single.html:209
+#: .\templates\contact.html:110 .\templates\contact.html:210
+#: .\templates\error-page.html:110 .\templates\error-page.html:210
+#: .\templates\gallery.html:110 .\templates\gallery.html:210
+#: .\templates\index.html:113 .\templates\index.html:213
+#: .\templates\services.html:110 .\templates\services.html:210
+#: .\templates\services.html:250 .\templates\services.html:253
+#: .\templates\shop-single.html:112 .\templates\shop-single.html:212
+#: .\templates\shop.html:111 .\templates\shop.html:211
+#: .\templates\team-single.html:110 .\templates\team-single.html:210
+#: .\templates\team.html:110 .\templates\team.html:210
+msgid "Services"
+msgstr "Hizmatlar"
+
+#: .\templates\blog-single.html:110 .\templates\blog-single.html:210
+#: .\templates\contact.html:111 .\templates\contact.html:211
+#: .\templates\error-page.html:111 .\templates\error-page.html:211
+#: .\templates\gallery.html:111 .\templates\gallery.html:211
+#: .\templates\index.html:114 .\templates\index.html:214
+#: .\templates\services.html:111 .\templates\services.html:211
+#: .\templates\shop-single.html:113 .\templates\shop-single.html:213
+#: .\templates\shop.html:112 .\templates\shop.html:212
+#: .\templates\team-single.html:111 .\templates\team-single.html:211
+#: .\templates\team.html:111 .\templates\team.html:211
+msgid "404 Page"
+msgstr "404 sahifa"
+
+#: .\templates\blog-single.html:113 .\templates\blog-single.html:115
+#: .\templates\blog-single.html:213 .\templates\blog-single.html:215
+#: .\templates\contact.html:114 .\templates\contact.html:116
+#: .\templates\contact.html:214 .\templates\contact.html:216
+#: .\templates\error-page.html:114 .\templates\error-page.html:116
+#: .\templates\error-page.html:214 .\templates\error-page.html:216
+#: .\templates\gallery.html:114 .\templates\gallery.html:116
+#: .\templates\gallery.html:214 .\templates\gallery.html:216
+#: .\templates\index.html:117 .\templates\index.html:119
+#: .\templates\index.html:217 .\templates\index.html:219
+#: .\templates\services.html:114 .\templates\services.html:116
+#: .\templates\services.html:214 .\templates\services.html:216
+#: .\templates\shop-single.html:116 .\templates\shop-single.html:118
+#: .\templates\shop-single.html:216 .\templates\shop-single.html:218
+#: .\templates\shop.html:115 .\templates\shop.html:117
+#: .\templates\shop.html:215 .\templates\shop.html:217
+#: .\templates\team-single.html:114 .\templates\team-single.html:116
+#: .\templates\team-single.html:214 .\templates\team-single.html:216
+#: .\templates\team.html:114 .\templates\team.html:116
+#: .\templates\team.html:214 .\templates\team.html:216
+msgid "Team"
+msgstr "Jamoa"
+
+#: .\templates\blog-single.html:116 .\templates\blog-single.html:216
+#: .\templates\contact.html:117 .\templates\contact.html:217
+#: .\templates\error-page.html:117 .\templates\error-page.html:217
+#: .\templates\gallery.html:117 .\templates\gallery.html:217
+#: .\templates\index.html:120 .\templates\index.html:220
+#: .\templates\services.html:117 .\templates\services.html:217
+#: .\templates\shop-single.html:119 .\templates\shop-single.html:219
+#: .\templates\shop.html:118 .\templates\shop.html:218
+#: .\templates\team-single.html:117 .\templates\team-single.html:217
+#: .\templates\team.html:117 .\templates\team.html:217
+msgid "Team Single"
+msgstr "Xodim sahifasi"
+
+#: .\templates\blog-single.html:122 .\templates\blog-single.html:219
+#: .\templates\contact.html:123 .\templates\contact.html:220
+#: .\templates\error-page.html:123 .\templates\error-page.html:220
+#: .\templates\gallery.html:123 .\templates\gallery.html:220
+#: .\templates\gallery.html:253 .\templates\index.html:126
+#: .\templates\index.html:223 .\templates\services.html:123
+#: .\templates\services.html:220 .\templates\shop-single.html:125
+#: .\templates\shop-single.html:222 .\templates\shop.html:124
+#: .\templates\shop.html:221 .\templates\team-single.html:123
+#: .\templates\team-single.html:220 .\templates\team.html:123
+#: .\templates\team.html:220
+msgid "Gallery"
+msgstr "Galereya"
+
+#: .\templates\blog-single.html:123 .\templates\blog-single.html:125
+#: .\templates\blog-single.html:220 .\templates\blog-single.html:222
+#: .\templates\contact.html:124 .\templates\contact.html:126
+#: .\templates\contact.html:221 .\templates\contact.html:223
+#: .\templates\error-page.html:124 .\templates\error-page.html:126
+#: .\templates\error-page.html:221 .\templates\error-page.html:223
+#: .\templates\gallery.html:124 .\templates\gallery.html:126
+#: .\templates\gallery.html:221 .\templates\gallery.html:223
+#: .\templates\index.html:127 .\templates\index.html:129
+#: .\templates\index.html:224 .\templates\index.html:226
+#: .\templates\services.html:124 .\templates\services.html:126
+#: .\templates\services.html:221 .\templates\services.html:223
+#: .\templates\shop-single.html:126 .\templates\shop-single.html:128
+#: .\templates\shop-single.html:223 .\templates\shop-single.html:225
+#: .\templates\shop.html:125 .\templates\shop.html:127
+#: .\templates\shop.html:222 .\templates\shop.html:224
+#: .\templates\team-single.html:124 .\templates\team-single.html:126
+#: .\templates\team-single.html:221 .\templates\team-single.html:223
+#: .\templates\team.html:124 .\templates\team.html:126
+#: .\templates\team.html:221 .\templates\team.html:223
+msgid "Shop"
+msgstr "Dokon"
+
+#: .\templates\blog-single.html:126 .\templates\blog-single.html:223
+#: .\templates\contact.html:127 .\templates\contact.html:224
+#: .\templates\error-page.html:127 .\templates\error-page.html:224
+#: .\templates\gallery.html:127 .\templates\gallery.html:224
+#: .\templates\index.html:130 .\templates\index.html:227
+#: .\templates\services.html:127 .\templates\services.html:224
+#: .\templates\shop-single.html:129 .\templates\shop-single.html:226
+#: .\templates\shop.html:128 .\templates\shop.html:225
+#: .\templates\team-single.html:127 .\templates\team-single.html:224
+#: .\templates\team.html:127 .\templates\team.html:224
+msgid "Shop Single"
+msgstr "Mahsulot sahifasi"
+
+#: .\templates\blog-single.html:129 .\templates\blog-single.html:226
+#: .\templates\contact.html:130 .\templates\contact.html:227
+#: .\templates\error-page.html:130 .\templates\error-page.html:227
+#: .\templates\gallery.html:130 .\templates\gallery.html:227
+#: .\templates\index.html:133 .\templates\index.html:230
+#: .\templates\services.html:130 .\templates\services.html:227
+#: .\templates\shop-single.html:132 .\templates\shop-single.html:229
+#: .\templates\shop.html:131 .\templates\shop.html:228
+#: .\templates\team-single.html:130 .\templates\team-single.html:227
+#: .\templates\team.html:130 .\templates\team.html:227
+msgid "Blog"
+msgstr "Blog"
+
+#: .\templates\blog-single.html:131 .\templates\blog-single.html:228
+#: .\templates\contact.html:132 .\templates\contact.html:229
+#: .\templates\error-page.html:132 .\templates\error-page.html:229
+#: .\templates\gallery.html:132 .\templates\gallery.html:229
+#: .\templates\index.html:135 .\templates\index.html:232
+#: .\templates\services.html:132 .\templates\services.html:229
+#: .\templates\shop-single.html:134 .\templates\shop-single.html:231
+#: .\templates\shop.html:133 .\templates\shop.html:230
+#: .\templates\team-single.html:132 .\templates\team-single.html:229
+#: .\templates\team.html:132 .\templates\team.html:229
+msgid "Our Blog"
+msgstr "Bizning Blog"
+
+#: .\templates\blog-single.html:132 .\templates\blog-single.html:229
+#: .\templates\contact.html:133 .\templates\contact.html:230
+#: .\templates\error-page.html:133 .\templates\error-page.html:230
+#: .\templates\gallery.html:133 .\templates\gallery.html:230
+#: .\templates\index.html:136 .\templates\index.html:233
+#: .\templates\services.html:133 .\templates\services.html:230
+#: .\templates\shop-single.html:135 .\templates\shop-single.html:232
+#: .\templates\shop.html:134 .\templates\shop.html:231
+#: .\templates\team-single.html:133 .\templates\team-single.html:230
+#: .\templates\team.html:133 .\templates\team.html:230
+msgid "Blog Single"
+msgstr "Blog maqolasi"
+
+#: .\templates\blog-single.html:135 .\templates\blog-single.html:232
+#: .\templates\contact.html:136 .\templates\contact.html:233
+#: .\templates\error-page.html:136 .\templates\error-page.html:233
+#: .\templates\gallery.html:136 .\templates\gallery.html:233
+#: .\templates\index.html:139 .\templates\index.html:236
+#: .\templates\services.html:136 .\templates\services.html:233
+#: .\templates\shop-single.html:138 .\templates\shop-single.html:235
+#: .\templates\shop.html:137 .\templates\shop.html:234
+#: .\templates\team-single.html:136 .\templates\team-single.html:233
+#: .\templates\team.html:136 .\templates\team.html:233
+msgid "Contact Us"
+msgstr "Biz bilan bog‘lanish"
+
+#: .\templates\blog-single.html:249
+msgid "Blog Details"
+msgstr "Blog tafsilotlari"
+
+#: .\templates\blog-single.html:274
+msgid "04 March 2017"
+msgstr "2017-yil 4-mart"
+
+#: .\templates\blog-single.html:286 .\templates\index.html:321
+#: .\templates\index.html:435 .\templates\index.html:568
+msgid "Vegetables"
+msgstr "Sabzavotlar"
+
+#: .\templates\blog-single.html:286 .\templates\index.html:320
+#: .\templates\index.html:434 .\templates\index.html:567
+msgid "Fruits"
+msgstr "Mevalar"
+
+#: .\templates\blog-single.html:286 .\templates\index.html:323
+#: .\templates\index.html:437 .\templates\index.html:570
+msgid "Breads"
+msgstr "Non mahsulotlari"
+
+#: .\templates\blog-single.html:288
+msgid "SHARE :"
+msgstr "ULASHISH:"
+
+#: .\templates\blog-single.html:319
+msgid "Reply"
+msgstr "Javob berish"
+
+#: .\templates\blog-single.html:326
+msgid "Leave Your Comments"
+msgstr "Izoh qoldiring"
+
+#: .\templates\blog-single.html:348
+msgid "Send Comment"
+msgstr "Izoh yuborish"
+
+#: .\templates\blog-single.html:375
+msgid "recent post"
+msgstr "So‘nggi postlar"
+
+#: .\templates\blog-single.html:390
+msgid "Flickr Photos"
+msgstr "Flickr fotosuratlari"
+
+#: .\templates\blog-single.html:404 .\templates\shop-single.html:487
+msgid "Tags"
+msgstr "Teglar"
+
+#: .\templates\blog-single.html:462 .\templates\error-page.html:316
+#: .\templates\gallery.html:392 .\templates\services.html:451
+#: .\templates\shop-single.html:546 .\templates\shop.html:382
+#: .\templates\team-single.html:420 .\templates\team.html:338
+msgid "Our Gallery"
+msgstr "Bizning galereyamiz"
+
+#: .\templates\blog-single.html:487 .\templates\contact.html:409
+#: .\templates\gallery.html:417 .\templates\services.html:476
+#: .\templates\shop-single.html:571 .\templates\shop.html:407
+#: .\templates\team-single.html:445 .\templates\team.html:363
+msgid "News letter"
+msgstr "Yangiliklarga obuna bo'lish"
+
+#: .\templates\blog-single.html:498 .\templates\contact.html:420
+#: .\templates\index.html:1019 .\templates\services.html:487
+#: .\templates\shop-single.html:582 .\templates\shop.html:418
+#: .\templates\team-single.html:456 .\templates\team.html:374
+msgid "SUBSCRIBE"
+msgstr "OBUNA BO‘LISH"
+
+#: .\templates\blog-single.html:527 .\templates\contact.html:449
+#: .\templates\gallery.html:457 .\templates\index.html:1048
+#: .\templates\services.html:516 .\templates\shop-single.html:611
+#: .\templates\shop.html:447 .\templates\team-single.html:485
+#: .\templates\team.html:403
+msgid "Copyright"
+msgstr "Mualliflik huquqi"
+
+#: .\templates\blog-single.html:527 .\templates\contact.html:449
+#: .\templates\gallery.html:457 .\templates\index.html:1048
+#: .\templates\services.html:516 .\templates\shop-single.html:611
+#: .\templates\shop.html:447 .\templates\team-single.html:485
+#: .\templates\team.html:403
+msgid "2017 Rotterdam. All rights reserved."
+msgstr "2017 Rotterdam. Barcha huquqlar himoyalangan."
+
+#: .\templates\contact.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Contact"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shablon | Aloqa"
+
+#: .\templates\contact.html:41 .\templates\error-page.html:41
+#: .\templates\gallery.html:41 .\templates\index.html:44
+#: .\templates\services.html:41 .\templates\shop-single.html:43
+#: .\templates\shop.html:42 .\templates\team-single.html:41
+#: .\templates\team.html:41
+msgid "Call Us Now : 1800 123 4567"
+msgstr "Hozir bizga qo‘ng‘iroq qiling: 1800 123 4567"
+
+#: .\templates\contact.html:253 .\templates\team.html:317
+msgid "Contact"
+msgstr "Aloqa"
+
+#: .\templates\contact.html:286 .\templates\contact.html:311
+msgid "Send Message"
+msgstr "Xabar yuborish"
+
+#: .\templates\error-page.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Error Page"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shablon | Xatolik sahifasi"
+
+#: .\templates\error-page.html:253
+msgid "404 Error"
+msgstr "404 xatolik"
+
+#: .\templates\error-page.html:381
+msgid "Copyright &copy; 2017 Rotterdam. All rights reserved."
+msgstr "Mualliflik huquqi © 2017 Rotterdam. Barcha huquqlar himoyalangan."
+
+#: .\templates\gallery.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Gallery"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shablon | Galereya"
+
+#: .\templates\index.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Home Style One"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shablon | Bosh sahifa uslubi 1"
+
+#: .\templates\index.html:322 .\templates\index.html:436
+#: .\templates\index.html:569
+msgid "Food"
+msgstr "Oziq ovqat"
+
+#: .\templates\index.html:372
+msgid "50 Years Experience"
+msgstr "50 Yillik tajriba"
+
+#: .\templates\index.html:393
+msgid "Welcome To Rotterdam"
+msgstr "Rotterdamga xush kelibsiz"
+
+#: .\templates\index.html:413
+msgid "Eat Better! Feel Better"
+msgstr "Yaxshiroq ovqatlaning! O‘zingizni yaxshiroq his qiling!"
+
+#: .\templates\index.html:458 .\templates\index.html:592
+msgid "Shop Now"
+msgstr "Hozir xarid qiling"
+
+#: .\templates\index.html:524
+msgid "We are highly committed to"
+msgstr "Biz ... ga qat’iy sodiqmiz"
+
+#: .\templates\index.html:545
+msgid "quality assurance"
+msgstr "Rotterdam - Agri & Farming HTML Template | Home Style One
+
+Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shablon | Bosh sahifa uslubi 1
+
+Welcome To Rotterdam
+
+Rotterdamga xush kelibsiz
+
+Eat Better! Feel Better
+
+Yaxshiroq ovqatlaning! O‘zingizni yaxshiroq his qiling!
+
+Shop Now
+
+Hozir xarid qiling
+
+We are highly committed to
+
+Biz ... ga qat’iy sodiqmiz
+
+quality assurance
+
+Sifat kafolati"
+
+#: .\templates\index.html:617
+msgid "discover"
+msgstr "Kashf etish"
+
+#: .\templates\index.html:667 .\templates\index.html:683
+#: .\templates\index.html:699
+msgid "Cras ultricies mi eu turpis hen..."
+msgstr "Sifatli va tabiiy mahsulotlarni kashf eting..."
+
+#: .\templates\index.html:780
+msgid "see all Products"
+msgstr "Barcha mahsulotlarni ko‘rish"
+
+#: .\templates\index.html:844
+msgid "Subscribe To our"
+msgstr "Bizga obuna bo‘ling"
+
+#: .\templates\index.html:844
+msgid "Newsletter"
+msgstr ""
+
+#: .\templates\index.html:850
+msgid "Subscribe"
+msgstr "Yangiliklar xabarnomasi"
+
+#: .\templates\services.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Services"
+msgstr "Rotterdam — Qishloq xo‘jaligi va dehqonchilik HTML shabloni | Xizmatlar"
+
+#: .\templates\services.html:363
+msgid "Only"
+msgstr "Faqat"
+
+#: .\templates\shop-single.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Shop Single"
+msgstr "Rotterdam - Agri & Farming HTML Template | Shop Single"
+
+#: .\templates\shop-single.html:252 .\templates\shop-single.html:255
+msgid "Products Details"
+msgstr "Mahsulot haqida batafsil"
+
+#: .\templates\shop-single.html:297
+msgid "Share This"
+msgstr "Ulashish"
+
+#: .\templates\shop-single.html:344
+msgid "Admin – March 03, 2017: "
+msgstr "Admin — 2017-yil 3-mart:"
+
+#: .\templates\shop-single.html:345 .\templates\shop-single.html:355
+msgid ""
+"Sed eget turpis a pede tempor malesuada. Vivamus quis mi at leo pulvinar "
+"hendrerit. Cum sociis natoque penatibus et magnis dis"
+msgstr "Vaqtinchalik aloqa va muloqot jarayonlari davom etmoqda. Biz bilan birga bo‘lganlar uchun turli imkoniyatlar va yangiliklar mavjud"
+
+#: .\templates\shop-single.html:354
+msgid "Mark – March 04, 2017: "
+msgstr "Mark — 2017-yil 4-mart:"
+
+#: .\templates\shop-single.html:363
+msgid "Add a Review"
+msgstr "Sharh qoldirish"
+
+#: .\templates\shop-single.html:368
+msgid "Name *"
+msgstr "Ism *"
+
+#: .\templates\shop-single.html:372
+msgid "Email *"
+msgstr "Email *"
+
+#: .\templates\shop-single.html:376
+msgid "Website *"
+msgstr "Veb-sayt *"
+
+#: .\templates\shop-single.html:380
+msgid "Rating"
+msgstr "Baholash"
+
+#: .\templates\shop-single.html:390
+msgid "Your Review"
+msgstr "Sharhingiz"
+
+#: .\templates\shop-single.html:394
+msgid "Add Review"
+msgstr "Sharh qo‘shish"
+
+#: .\templates\shop-single.html:412
+msgid "Related Products"
+msgstr "O‘xshash mahsulotlar"
+
+#: .\templates\shop-single.html:458
+msgid "Filter By Price"
+msgstr "Narx bo‘yicha filtrlash"
+
+#: .\templates\shop-single.html:467
+msgid "Filter"
+msgstr "Filtrlash"
+
+#: .\templates\shop-single.html:476
+msgid "Category"
+msgstr "Kategoriya"
+
+#: .\templates\shop.html:7
+msgid "Rotterdam - Agri & Farming HTML Template | Shop"
+msgstr "Qishloq xo‘jaligi va fermerlik uchun HTML shabloni | Do‘kon"
+
+#: .\templates\shop.html:254
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#: .\templates\shop.html:266
+msgid "Showing 1-9 Of 18 Results"
+msgstr "18 ta natijadan 1–9 tasi ko‘rsatilmoqda"
+
+#: .\templates\shop.html:273
+msgid "Post"
+msgstr "Post"
+
+#: .\templates\shop.html:274
+msgid "Date"
+msgstr "Sana"
+
+#: .\templates\shop.html:275
+msgid "Assending"
+msgstr "O‘sish tartibida"
+
+#: .\templates\shop.html:276
+msgid "Desending"
+msgstr "Kamayish tartibida"
+
+#: .\templates\shop.html:286
+msgid "Subjects"
+msgstr "Mavzular"
+
+#: .\templates\shop.html:287
+msgid "Timelines"
+msgstr "Vaqt jadvallari"
+
+#: .\templates\shop.html:288
+msgid "Popular"
+msgstr "Mashhur"
+
+#: .\templates\shop.html:289
+msgid "Incomplete"
+msgstr "Tugallanmagan"
+
+#: .\templates\team-single.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Team Single"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shabloni | Jamoa a’zosi sahifasi"
+
+#: .\templates\team-single.html:250
+msgid "Farmers Details"
+msgstr "Fermer haqida ma’lumot"
+
+#: .\templates\team-single.html:253
+msgid "Farmer Details"
+msgstr "Fermer haqida ma’lumot"
+
+#: .\templates\team.html:6
+msgid "Rotterdam - Agri & Farming HTML Template | Team"
+msgstr "Rotterdam — Qishloq xo‘jaligi va fermerlik uchun HTML shabloni | Jamoa"
+
+#: .\templates\team.html:253
+msgid "Our Farmers"
+msgstr "Bizning fermerlarimiz"
+
+#: .\templates\team.html:308
+msgid ""
+"Maecenas tristique gravida, odio et sagi ttis justo. Suspendisse ultricies "
+"nisi veafn. onec nisi veafn. onec nisi veafn. onec  dictum.."
+msgstr "Turli jarayonlar va faoliyatlar izchil davom etmoqda. Ba’zi ma’lumotlar va xizmatlar muntazam ravishda yangilanib boradi. Batafsil ma’lumotlar keyinchalik taqdim etiladi"
+
+#: .\templates\team.html:319
+msgid "Address"
+msgstr "Manzil"
+
+#: .\templates\team.html:319
+msgid "4 Main Street, MA 200, Australia"
+msgstr "4 Main ko‘chasi, MA 200, Avstraliya"
+
+#: .\templates\team.html:320
+msgid "Phone"
+msgstr "Telefon"
+
+#: .\templates\team.html:320
+msgid "(1800) 123 4567, (1800) 123 4568"
+msgstr "(1800) 123 4567, (1800) 123 4568"
+
+#: .\templates\team.html:321
+msgid "Email"
+msgstr "Email"

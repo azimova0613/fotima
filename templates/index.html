@@ -1,0 +1,1088 @@
+{% load i18n %}
+{% load static %}<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{% trans 'Rotterdam - Agri & Farming HTML Template | Home Style One'%}</title>
+<!-- Stylesheets -->
+<link href="{% static 'css/bootstrap.css'%}" rel="stylesheet">
+<link href="{% static 'plugins/revolution/css/settings.css'%}" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+<link href="{% static 'plugins/revolution/css/layers.css'%}" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+<link href="{% static 'plugins/revolution/css/navigation.css'%}" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+<link href="{% static 'css/style.css'%}" rel="stylesheet">
+<link href="{% static 'css/responsive.css'%}" rel="stylesheet">
+
+<!--Add Theme Color File To Change Template Color Scheme / Color Scheme Files are Located in root/css/color-themes/ folder-->
+<!--<link href="{% static 'css/color-themes/blue-theme.css'%}" rel="stylesheet">-->
+
+<!--Favicon-->
+<link rel="shortcut icon" href="{% static 'images/favicon.ico'%}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/favicon.ico'%}" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js'%}"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js'%}"></script><![endif]-->
+</head>
+
+<body>
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+    <!-- Main Header-->
+    <header class="main-header">
+        
+        <!-- Header Top -->
+    	<div class="header-top">
+        	<div class="auto-container clearfix">
+            	<!--Top Left-->
+            	<div class="top-left pull-left">
+                	<ul class="links-nav clearfix">
+                    	<li><a href="#"><span class="icon fa fa-envelope-o"></span> Info@Rotterdam.com</a></li>
+                        <li><a href="#"><span class="icon fa fa-phone"></span> {% trans 'Call Us Now : 1800 123 4567'%}</a></li>
+                    </ul>
+                </div>
+                
+                <!--Top Right-->
+            	<div class="top-right pull-right">
+                	<ul class="links-nav clearfix">
+                    	<li class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">En &ensp;<span class="icon fa fa-caret-down"></span></a>
+                        	<ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">{% trans 'English'%}</a></li>
+                                <li><a href="#">{% trans 'German'%}</a></li>
+                                <li><a href="#">{% trans 'Arabic'%}</a></li>
+                                <li><a href="#">{% trans 'Hindi'%}</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="#">{% trans 'Login'%}</a></li>
+                        <li><a href="#">{% trans 'Sign Up'%}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Header Top End -->
+        
+        <!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+                	
+                <div class="logo-outer">
+                    <div class="logo"><a href="index.html"><img src="{% static 'images/logo.png'%}" alt="" title=""></a></div>
+                </div>
+                    
+                <div class="nav-outer clearfix">
+                
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <!--Left Nav-->
+                            <ul class="navigation left-nav clearfix">
+                                <li class="current dropdown"><a href="#">Home</a>
+                                    <ul>
+                                        <li><a href="index.html">{% trans 'Homepage One'%}</a></li>
+                                        <li><a href="index-2.html">{% trans 'Homepage Two'%}</a></li>
+                                        <li><a href="index-3.html">{% trans 'Homepage Three'%}</a></li>
+                                        <li class="dropdown"><a href="#">{% trans 'Header Styles'%}</a>
+                                            <ul>
+                                                <li><a href="index.html">{% trans 'Header Style One'%}</a></li>
+                                                <li><a href="index-2.html">{% trans 'Header Style Two'%}</a></li>
+                                                <li><a href="index-3.html">{% trans 'Header Style Three'%}</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="about.html">{% trans 'About Us'%}</a>
+                                	<ul>
+                                    	<li><a href="about.html">{% trans 'About Us 01'%}</a></li>
+                                        <li><a href="about-two.html">{% trans 'About Us 02'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">{% trans 'Pages'%}</a>
+                                    <ul>
+                                    	<li><a href="services.html">{% trans 'Services'%}</a></li>
+                                        <li><a href="error-page.html">{% trans '404 Page'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">{% trans 'Team'%}</a>
+                                    <ul>
+                                    	<li><a href="team.html">{% trans 'Team'%}</a></li>
+                                        <li><a href="team-single.html">{% trans 'Team Single'%}</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--Right Nav-->
+                            <ul class="navigation right-nav clearfix">
+                                <li><a href="gallery.html">{% trans 'Gallery'%}</a></li>
+                                <li class="dropdown"><a href="#">{% trans 'Shop'%}</a>
+                                    <ul>
+                                    	<li><a href="shop.html">{% trans 'Shop'%}</a></li>
+                                        <li><a href="shop-single.html">{% trans 'Shop Single'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">{% trans 'Blog'%}</a>
+                                    <ul>
+                                        <li><a href="blog.html">{% trans 'Our Blog'%}</a></li>
+                                        <li><a href="blog-single.html">{% trans 'Blog Single'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">{% trans 'Contact Us'%}</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    
+                    <!--Search Box-->
+                    <div class="search-box-outer">
+                        <div class="dropdown">
+                            <button class="search-box-btn dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
+                            <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
+                                <li class="panel-outer">
+                                    <div class="form-container">
+                                        <form method="post" action="blog.html">
+                                            <div class="form-group">
+                                                <input type="search" name="field-name" value="" placeholder="Search Here" required="">
+                                                <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+        	</div>
+        </div>
+        <!--End Header Upper-->
+        
+        <!--Sticky Header-->
+        <div class="sticky-header">
+        	<div class="auto-container clearfix">
+            	<!--Logo-->
+            	<div class="logo pull-left">
+                	<a href="index.html" class="img-responsive"><img src="{% static 'images/logo-small.png'%}" alt="" title=""></a>
+                </div>
+                
+                <!--Right Col-->
+                <div class="right-col pull-right">
+                	<!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-header">
+                            <!-- Toggle Button -->    	
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="current dropdown"><a href="#">{% trans 'Home'%}</a>
+                                    <ul>
+                                        <li><a href="index.html">{% trans 'Homepage One'%}</a></li>
+                                        <li><a href="index-2.html">{% trans 'Homepage Two'%}</a></li>
+                                        <li><a href="index-3.html">{% trans 'Homepage Three'%}</a></li>
+                                        <li class="dropdown"><a href="#">{% trans 'Header Styles'%}</a>
+                                            <ul>
+                                                <li><a href="index.html">{% trans 'Header Style One'%}</a></li>
+                                                <li><a href="index-2.html">{% trans 'Header Style Two'%}</a></li>
+                                                <li><a href="index-3.html">{% trans 'Header Style Three'%}</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="about.html">{% trans 'About Us'%}</a>
+                                	<ul>
+                                    	<li><a href="about.html">{% trans 'About Us 01'%}</a></li>
+                                        <li><a href="about-two.html">{% trans 'About Us 02'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">{% trans 'Pages'%}</a>
+                                    <ul>
+                                    	<li><a href="services.html">{% trans 'Services'%}</a></li>
+                                        <li><a href="error-page.html">{% trans '404 Page'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">{% trans 'Team'%}</a>
+                                    <ul>
+                                    	<li><a href="team.html">{% trans 'Team'%}</a></li>
+                                        <li><a href="team-single.html">{% trans 'Team Single'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="gallery.html">{% trans 'Gallery'%}</a></li>
+                                <li class="dropdown"><a href="#">{% trans 'Shop'%}</a>
+                                    <ul>
+                                    	<li><a href="shop.html">{% trans 'Shop'%}</a></li>
+                                        <li><a href="shop-single.html">{% trans 'Shop Single'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">{% trans 'Blog'%}</a>
+                                    <ul>
+                                        <li><a href="blog.html">{% trans 'Our Blog'%}</a></li>
+                                        <li><a href="blog-single.html">{% trans 'Blog Single'%}</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">{% trans 'Contact Us'%}</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+                
+            </div>
+        </div>
+        <!--End Sticky Header-->
+    
+    </header>
+    <!--End Main Header -->
+    
+    <!--Main Slider-->
+    <section class="main-slider">
+    	
+        <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+            <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+                <ul>
+                	
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="{% static 'images/main-slider/image-1.jpg'%}" data-title="Slide Title" data-transition="parallaxvertical">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{% static 'images/main-slider/image-1.jpg'%}"> 
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-fontsize="['64','48','36','24']"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-100','-120','-90','-120']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<figure class="content-image"><img src="{% static 'images/main-slider/content-image-1.png'%}" alt=""></figure>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['60','10','40','20']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<div class="text-center">
+                    		<h2>Have a Look at Our Beautiful Farm!</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['130','160','90','80']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<ul class="slider-list">
+                        	<li>{% trans 'Fruits'%}</li>
+                            <li>{% trans 'Vegetables'%}</li>
+                            <li>{% trans 'Food'%}</li>
+                            <li>{% trans 'Breads'%}</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['200','90','160','140']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<div class="text-center">
+                    		<a href="#" class="theme-btn btn-style-one">Explore</a>
+                        </div>
+                    </div>
+                    
+                    </li>
+                    
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="{% static 'images/main-slider/image-2.jpg'%}" data-title="Slide Title" data-transition="parallaxvertical">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{% static 'images/main-slider/image-2.jpg'%}"> 
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-fontsize="['64','48','36','24']"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-120','-130','-130','-120']"
+                    data-x="['left','left','left','left']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<div class="title">{% trans '50 Years Experience'%}</div>
+                    </div>
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-fontsize="['64','48','36','24']"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-60','-65','-65','-70']"
+                    data-x="['left','left','left','left']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<h3>{% trans 'Welcome To Rotterdam'%}</h3>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['0','10','0','-15']"
+                    data-x="['left','left','left','left']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<div class="text">{% trans 'Eat Better! Feel Better'%}</div>
+                    </div>
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['50','60','50','20']"
+                    data-x="['left','left','left','left']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<ul class="slider-list">
+                        	<li>{% trans 'Fruits'%}</li>
+                            <li>{% trans 'Vegetables'%}</li>
+                            <li>{% trans 'Food'%}</li>
+                            <li>{% trans 'Breads'%}</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['120','130','110','80']"
+                    data-x="['left','left','left','left']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<a href="#" class="theme-btn btn-style-one">{% trans 'Shop Now'%}</a>
+                    </div>
+                    
+                    </li>
+                    
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1690" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="{% static 'images/main-slider/image-3.jpg'%}" data-title="Slide Title" data-transition="parallaxvertical">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{% static 'images/main-slider/image-3.jpg'%}"> 
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-fontsize="['64','48','36','24']"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-130','-150','-140','-120']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<figure class="content-image"><img src="{% static 'images/main-slider/leaf-icon.png'%}" alt=""></figure>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['-60','-100','-70','-60']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<div class="text text-center">Eat Better! <span class="theme_color">Feel Better</span></div>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['0','-55','40','40']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<h2 class="alternate">{% trans 'We are highly committed to'%}</h2>
+                    </div>
+                    
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['55','10','-20','-20']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<h4>{% trans 'quality assurance'%}</h4>
+                    </div>
+                    
+                    
+                    <div class="tp-caption tp-resizeme" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-whitespace="nowrap"
+                    data-width="none"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['100','50','110','90']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<ul class="slider-list">
+                        	<li>{% trans 'Fruits'%}</li>
+                            <li>{% trans 'Vegetables'%}</li>
+                            <li>{% trans 'Food'%}</li>
+                            <li>{% trans 'Breads'%}</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tp-caption" 
+                    data-paddingbottom="[0,0,0,0]"
+                    data-paddingleft="[0,0,0,0]"
+                    data-paddingright="[0,0,0,0]"
+                    data-paddingtop="[0,0,0,0]"
+                    data-responsive_offset="on"
+                    data-type="text"
+                    data-height="none"
+                    data-width="['900','600','400','290']"
+                    data-whitespace="normal"
+                    data-hoffset="['15','15','15','15']"
+                    data-voffset="['170','100','170','150']"
+                    data-x="['center','center','center','center']"
+                    data-y="['middle','middle','middle','middle']"
+                    data-textalign="['top','top','top','top']"
+                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                    style="z-index: 7; white-space: nowrap;text-transform:left;">
+                    	<div class="text-center">
+                    		<a href="#" class="theme-btn btn-style-one">{% trans 'Shop Now'%}</a>
+                        </div>
+                    </div>
+                    
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Main Slider-->
+    
+    <!--Experiance Section-->
+    <section class="experiance-section" style="background-image:url({% static 'images/background/1.png'%});">
+    	<div class="auto-container">
+          {% for i in story %} 
+        	<div class="inner-content">
+            	<!--Sec Title-->
+                <div class="sec-title centered">
+                	<div class="icon-box"></div>
+                    <div class="title">{{ i.nomi}}</div>
+                    <h2>{{i.title}}</h2>
+                </div>
+                <div class="text-content">
+                	<div class="text">{{i.text}}</div>
+                    <a href="#" class="theme-btn btn-style-one">{% trans 'discover'%}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <!--End Experiance Section-->
+    
+    <!--Cart Section-->
+    <section class="cart-info-section">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            	<!--Column-->
+                <div class="content-column pull-right col-md-6 col-sm-12 col-xs-12">
+                    {% for i in story2 %}
+                	<div class="inner-column">
+                    	<h3>{{i.nomi}}</h3>
+                        <h2>{{i.narx}}</h2>
+                        <div class="text">{{i.title}}</div>
+                        <div class="category">{{i.nomi2}} <span>{{i.nomi2}}</span></div>
+                        <a href="shop-single.html" class="theme-btn btn-style-one"><span class="fa fa-cart-plus"></span>&ensp;Add To Cart</a>
+                    </div>
+                    {% endfor %} 
+                </div>
+                <!--Image Column-->
+            	<div class="image-column pull-left col-md-6 col-sm-12 col-xs-12">
+                	<figure class="image">
+                    	<img src="{% static 'images/resource/image-1.png'%}" alt="" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Cart Section-->
+    
+    <!--Featured Section-->
+    <section class="featured-section">
+    	<div class="auto-container">
+        	<div class="featured-inner">
+            	<div class="row clearfix">
+                	<!--Featured Block-->
+                    <div class="featured-block col-md-4 col-sm-6 col-xs-12">
+                    	<div class="inner-box">
+                            {% for i in story3 %}
+                        	<div class="content">
+                            	<div class="icon-box">
+                                	<span class="icon"><img src="{% static 'images/resource/featured-icon-1.png'%}" alt="" /></span>
+                                </div>
+                                <div class="title">{{i.nomi}}</div>
+                                <h2><a href="services.html">{{i.title}}</a></h2>
+                                <div class="text">{% trans 'Cras ultricies mi eu turpis hen...'%}</div>
+                            </div>
+                            {% endfor %}  
+                        </div>
+                    </div>
+                    
+                    <!--Featured Block-->
+                    <div class="featured-block col-md-4 col-sm-6 col-xs-12">
+                    	<div class="inner-box">
+                            {% for i in story3 %}
+                        	<div class="content">
+                            	<div class="icon-box">
+                                	<span class="icon"><img src="{% static 'images/resource/featured-icon-2.png'%}" alt="" /></span>
+                                </div>
+                                <div class="title">{{i.nomi}}</div>
+                                <h2><a href="services.html">{{i.title}}</a></h2>
+                                <div class="text">{% trans 'Cras ultricies mi eu turpis hen...'%}</div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <!--Featured Block-->
+                    <div class="featured-block col-md-4 col-sm-6 col-xs-12">
+                    	<div class="inner-box">
+                            {% for i in story3 %}
+                        	<div class="content">
+                            	<div class="icon-box">
+                                	<span class="icon"><img src="{% static 'images/resource/featured-icon-3.png'%}" alt="" /></span>
+                                </div>
+                                <div class="title">{{i.nomi}}</div>
+                                <h2><a href="services.html">{{i.title}}</a></h2>
+                                <div class="text">{% trans 'Cras ultricies mi eu turpis hen...'%}</div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Featured Section-->
+    
+    <!--Choose Section-->
+    <section class="choose-section">
+    	<div class="auto-container">
+        
+        	<!--Image Column-->
+            <div class="image-column">
+                <figure class="image">
+                    <img src="{% static 'images/resource/choose-inner.png'%}" alt="" />
+                </figure>
+                <!--Title Boxed-->
+                <div class="title-boxed">
+                    {% for i in story6%}
+                    <div class="sec-title centered">
+                    	<div class="icon-box"></div>
+                        <div class="title">{{i.nomi}}</div>
+                        <h2>{{i.text}}</h2>
+
+                 {% endfor %}
+                   </div>
+                </div>
+            </div>
+        	
+        	<div class="row clearfix">
+            
+                <!--Column-->
+                <div class="column pull-left col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                {% for i in story4 %}
+                    <!--Featured Block Two-->
+                    <div class="featured-block-two">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-broccoli"></span>
+                            </div>
+                            <h3><a href="services.html">{{i.nomi}}</a></h3>
+                            <div class="text">{{i.text}} </div>
+                        </div>
+                    </div>
+                    
+                    
+                {% endfor %}    
+                </div>
+                
+                <!--Column-->
+                <div class="column pull-right col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                  {% for i in story5 %}  
+                    <!--Featured Block Three-->
+                    <div class="featured-block-three">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <span class="icon flaticon-bus-1"></span>
+                            </div>
+                            <h3><a href="services.html">{{i.nomi}}</a></h3>
+                            <div class="text">{{i.text}} </div>
+                        </div>
+                    </div>
+                    
+                 {% endfor %}   
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--End Choose Section-->
+    
+    <!--Call To Action Section-->
+    <section class="call-to-action-section" style="background-image:url({% static 'images/background/2.jpg'%});">
+    	<div class="auto-container">
+        	<h3>{{story7.nomi}}</h3>
+            <h2>{{story7.nomi}}</h2>
+            <a href="shop.html" class="theme-btn btn-style-one">{% trans 'see all Products'%}</a>
+        </div>
+    </section>
+    <!--End Call To Action Section-->
+    
+    <!--Product Section-->
+    <section class="product-section">
+    	<span class="product-right-image"><img src="{% static 'images/resource/product-right-image.jpg'%}" alt="" /></span>
+        <span class="product-left-image"><img src="{% static 'images/resource/product-left-image.jpg'%}" alt="" /></span>
+        <span class="product-middle-image"><img src="{% static 'images/resource/product-middle-image.jpg'%}" alt="" /></span>
+    	<div class="auto-container">
+        	<!--Sec Title-->
+            <div class="sec-title centered">
+            	<div class="icon-box"></div>
+                <div class="title">{{story8.nomi}}</div>
+                <h2>{{story8.text}}</h2>
+            </div>
+            
+            <!--Sortable Gallery-->
+            <div class="mixitup-gallery">
+            
+                <!--Filter-->
+                <div class="filters clearfix">
+                    <ul class="filter-tabs filter-btns text-center">
+                    {% for i in story9 %}
+                        <li class="filter active" data-role="button" data-filter="all">{{i.nomi}}</li>
+                        
+                    </ul>
+                    {% endfor %}
+                </div>
+                
+                <div class="filter-list row clearfix">
+                
+                    <!--Shop Item-->
+                    {% for i in story14 %}
+                    <div class="shop-item col-md-4 col-sm-6 col-xs-12 mix all">
+						<div class="inner-box">
+                            <div class="image-box"><img src="{{i.image.url}}" alt=""></div>
+                            <!--lower box-->
+                            <div class="lower-box">
+                                <h3><a href="shop-single.html">{{i.nomi}}</a></h3>
+                                <span class="price">{{i.narx}}</span>
+                                <a href="shop-single.html" class="theme-btn btn-style-one"><span class="fa fa-cart-plus"></span>&ensp;{{i.xarid}}</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                    
+                  {% endfor%}  
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Product Section-->
+    
+    <!--Subscribe Style One-->
+    <section class="subscribe-style-one">
+    	<span class="left-image"><img src="{% static 'images/resource/newsletter-1.png'%}" alt="" /></span>
+    	<div class="auto-container">
+        	<div class="row clearfix">
+                <div class="column col-md-4 col-sm-12 col-xs-12">
+                    <h2>{% trans 'Subscribe To our'%}<br> <span class="theme_color">{% trans 'Newsletter'%}</span></h2>
+                </div>
+                <div class="column col-md-8 col-sm-12 col-xs-12">
+                    <form method="post" action="contact.html">
+                        <div class="form-group">
+                            <input type="email" name="email" value="" placeholder="Enter your email.." required>
+                            <button type="submit" class="subscribe-btn">{% trans 'Subscribe'%}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <span class="right-image"><img src="{% static 'images/resource/newsletter-2.png'%}" alt="" /></span>
+    </section>
+	<!--End Subscribe Style One-->
+    
+    <!--Farmer Section-->
+    <section class="farmer-section">
+    	<div class="auto-container">
+        	<span class="right-image"><img src="{% static 'images/resource/product-middle-image.jpg'%}" alt="" /></span>
+            <span class="left-image"><img src="{% static 'images/resource/farmer-left-img.jpg'%}" alt="" /></span>
+        	<!--Sec Title-->
+            <div class="sec-title centered">
+            	<div class="icon-box"></div>
+                <div class="title">{{story15.nomi}}</div>
+                <h2>{{story15.nomi2}}</h2>
+                <div class="text">{{story15.title}} </div>
+            </div>
+            <div class="row clearfix">
+            	
+                <!--Team Member-->
+                {% for i in story16 %}
+                <div class="team-member col-md-4 col-sm-6 col-xs-12">
+                	<div class="inner-box">
+                    	<div class="image-box">
+                        	<figure class="image"><img src="{{i.image.url}}" alt=""></figure>
+                            <ul class="social-icon-two">
+                            	<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="lower-content">
+                        	<h4><a href="team-single.html">{{i.nomi}}</a></h4>
+                            <div class="designation">{{i.nomi2}}</div>
+                            <div class="text">{{i.title}}</div>
+                        </div>
+                 
+                    </div>
+                </div>
+                {% endfor %}
+                
+                <!--Team Member-->
+                
+                
+            </div>
+        </div>
+    </section>
+    <!--End Farmer Section-->
+    
+    <!--Testimonial Section-->
+    <section class="testimonial-section" style="background-image:url({% static 'images/background/3.jpg'%});">
+    	<div class="auto-container">
+        	<!--Sec Title-->
+            <div class="sec-title light centered">
+            	<div class="icon-box"></div>
+                <div class="title">{{story17.nomi}}</div>
+                <h2>{{story17.nomi2}}</h2>
+                <div class="text">{{story17.title}}</div>
+            </div>
+            
+            <div class="single-item-carousel owl-carousel owl-theme">
+            
+                <!--Testimonail Style One-->
+                {% for i in story18 %}
+                <div class="testimonail-style-one">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <img src="{% static 'images/resource/author-1.jpg'%}" alt="" />
+                        </div>
+                        <div class="text">{{i.title}} </div>
+                        <h2>{{i.nomi}}</h2>
+                        <div class="designation">{{i.nomi2}}</div>
+                        <span class="quote-icon flaticon-left-quote-1"></span>
+                    </div>
+                </div>
+                
+              {% endfor %} 
+            </div>
+        </div>
+    </section>
+    <!--End Testimonial Section-->
+    
+    <!--Main Footer-->
+    <footer class="main-footer">
+    	<!--Widgets Section-->
+        <div class="widgets-section">
+            <div class="auto-container">
+            	<div class="row clearfix">
+                <!--Big Column-->
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                    
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <!--About Widget-->
+                            <div class="footer-widget about-widget">
+                            	<h2>{{story19.nomi}}</h2>
+                                <div class="text">{{story19.text}}</div>
+                                <div class="cards"><img src="{% static 'images/resource/cards.png'%}" alt="" /></div>
+                            </div>
+                        </div>
+                        
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <!--Info Widget-->
+                            <div class="footer-widget info-widget">
+                            	<h2>{{story20.nomi}}</h2>
+                                <ul class="info-list">
+                                	<li>{{story20.adres}}<span>{{story20.adres2}}</span></li>
+                                    <li>{{story20.tel2}}<span>{{story20.tel}}</span></li>
+                                    <li>{{story20.email}}<span>Info@Rotterdam.com</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <!--Big Column-->
+                <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                    
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <!--Gallery Widget-->
+                            <div class="footer-widget gallery-widget">
+                            	<h2>{{story21.nomi}}</h2>
+                                
+                                <div class="widget-content">
+                                    <div class="images-outer clearfix">
+                                        <!--Image Box-->
+                                        <figure class="image-box"><a href="{% static 'images/gallery/1.jpg'%}" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="{% static 'images/gallery/footer-thumb-1.jpg'%}" alt=""></a></figure>
+                                        <!--Image Box-->
+                                        <figure class="image-box"><a href="{% static 'images/gallery/2.jpg'%}" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="{% static 'images/gallery/footer-thumb-2.jpg'%}" alt=""></a></figure>
+                                        <!--Image Box-->
+                                        <figure class="image-box"><a href="{% static 'images/gallery/3.jpg'%}" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="{% static 'images/gallery/footer-thumb-3.jpg'%}" alt=""></a></figure>
+                                        <!--Image Box-->
+                                        <figure class="image-box"><a href="{% static 'images/gallery/4.jpg'%}" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="{% static 'images/gallery/footer-thumb-4.jpg'%}" alt=""></a></figure>
+                                        <!--Image Box-->
+                                        <figure class="image-box"><a href="{% static 'images/gallery/1.jpg'%}" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="{% static 'images/gallery/footer-thumb-5.jpg'%}" alt=""></a></figure>
+                                        <!--Image Box-->
+                                        <figure class="image-box"><a href="{% static 'images/gallery/2.jpg'%}" class="lightbox-image" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="{% static 'images/gallery/footer-thumb-6.jpg'%}" alt=""></a></figure>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <!--Footer Column-->
+                        <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget subscribe-widget">
+                               <h2>News letter</h2>
+                               <div class="widget-content">
+                                    <div class="newsletter-form">
+                                        <form method="post" action="contact.html">
+                                            <div class="form-group">
+                                                <input type="text" name="name" value="" placeholder="Name" required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" name="email" value="" placeholder="Email Id" required="">
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="theme-btn btn-style-one">{% trans 'SUBSCRIBE'%}</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+        	<div class="auto-container">
+            	<div class="logo">
+                	<a href="index.html"><img src="{% static 'images/footer-logo.png'%}" alt="" /></a>
+                </div>
+                <ul class="social-icon-one">
+                	<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                    <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                    <li><a href="#"><span class="fa fa-skype"></span></a></li>
+                    <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                </ul>
+                <div class="copyright">{% trans 'Copyright'%} &copy; {% trans '2017 Rotterdam. All rights reserved.'%}</div>
+            </div>
+        </div>
+        
+    </footer>
+    
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon fa fa-long-arrow-up"></span></div>
+
+
+
+
+<script src="{% static 'js/jquery.js'%}"></script>
+<!--Revolution Slider-->
+<script src="{% static 'plugins/revolution/js/jquery.themepunch.revolution.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/jquery.themepunch.tools.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.actions.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.carousel.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.kenburn.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.migration.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.navigation.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.parallax.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.slideanims.min.js'%}"></script>
+<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.video.min.js'%}"></script>
+
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<script src="{% static 'js/jquery.fancybox.pack.js'%}"></script>
+<script src="{% static 'js/jquery.fancybox-media.js'%}"></script>
+<script src="{% static 'js/owl.js'%}"></script>
+<script src="{% static 'js/appear.js'%}"></script>
+<script src="{% static 'js/wow.js'%}"></script>
+<script src="{% static 'js/mixitup.js'%}"></script>
+<script src="{% static 'js/main-slider-script.js'%}"></script>
+<script src="{% static 'js/script.js'%}"></script>
+
+</body>
+</html>
