@@ -102,7 +102,6 @@ class kantak(models.Model):
     text=models.TextField()
 
 class kantakt2(models.Model):
-   
     Username=models.CharField(max_length=100)
     Email=models.CharField(max_length=100)
     Phone=models.FloatField()

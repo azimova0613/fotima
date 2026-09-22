@@ -18,6 +18,8 @@ def Index(request):
         "story16":story16.objects.all(),
         "story17":story17.objects.first(),
         "story18":story18.objects.all(),
+        "story19":story19.objects.first(),
+        "story20":story20.objects.first(),
         "story21":story21.objects.first(),
         "story22":story22.objects.first(),
         
